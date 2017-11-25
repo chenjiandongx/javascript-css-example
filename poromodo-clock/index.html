@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>番茄钟</title>
+</head>
+
+<body>
+    <h1>番茄工作法</h1>
+    <div class="header">
+        <div class="workTime">
+            <p>工作时间</p>
+            <div class="container">
+                <i id="workMinus" class="minus">-</i>
+                <p id="workLength" class="number">25</p>
+                <i id="workPlus" class="plus">+</i>
+            </div>
+        </div>
+        <div class="restTime">
+            <p>休息时间</p>
+            <div class="container">
+                <i id="restMinus" class="minus">-</i>
+                <p id="restLength" class="number">5</p>
+                <i id="restPlus" class="plus">+</i>
+            </div>
+        </div>
+    </div>
+    <div class="timer">
+        <h2>计时开始</h2>
+        <p id="time">25</p>
+        <div class="background">
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
